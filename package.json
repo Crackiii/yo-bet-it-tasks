@@ -1,0 +1,26 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "Tasks to solve",
+  "main": "tasks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tasks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crackiii/yo-bet-it-tasks.git"
+  },
+  "keywords": [
+    "yobetit"
+  ],
+  "author": "Nadeem Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crackiii/yo-bet-it-tasks/issues"
+  },
+  "homepage": "https://github.com/Crackiii/yo-bet-it-tasks#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
