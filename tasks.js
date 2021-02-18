@@ -1,15 +1,9 @@
 const axios = require('axios').default
-/*
-    --CALCULATE NTH OF PI--
-    n + 1 in order to eliminate the dot (.)
-    So that only numbers are counted.
-*/
+
 const PI_MAX = n => Number(Math.PI.toString().substr(0, Number(n + 1)))
 
 
-/*
-    --GET A UNIQUE COUNTRY NAME--
-*/
+
 const UNIQUE_COUNTRY = async (name) => {
     let res = await axios.get(`https://restcountries.eu/rest/v2/name/${name}`)
     //to get the last element of the array
