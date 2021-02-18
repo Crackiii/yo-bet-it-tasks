@@ -9,18 +9,7 @@ const UNIQUE_COUNTRY = async (name) => {
     //to get the last element of the array
     return res.data[res.data.length - 1].name
 }
-// UNIQUE_COUNTRY('usa').then(res => console.log(`${res}`))
 
-
-/*
-    --GET ALL WITH MATCHING STRINGS--
-
-    This function will return an array of objects, the key of the object will 
-    be the string that is passed as argument, and the countries that match the
-    countries name (at least a part of it).
-
-    Note : the countries lists is filtered based on the name only not country code etc.
-*/
 
 const MATCHING_STRINGS = async arrayofstrings => {
     let res = await axios.get(`https://restcountries.eu/rest/v2/all`)
