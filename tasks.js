@@ -73,7 +73,7 @@ const SPIN_REELS = () => {
     } else if (count('lemon').length === 3) {
         return 'You have won 3 coins !'
     } else {
-        return 'You won 1 coin with one spin !'
+        return 'What the heck!!!'
     }
 
 }
